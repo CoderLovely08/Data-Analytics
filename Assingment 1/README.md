@@ -3,7 +3,7 @@
 ## Implement the following Schema
 
 - Schema
-  ![Schema](schema/schema.png)
+  ![Schema](Schema/schema.png)
 - Query
 1. Regions Table
     ```sql
