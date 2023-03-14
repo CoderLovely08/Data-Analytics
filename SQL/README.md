@@ -315,6 +315,16 @@
   +--------------+-------------+------+-----+---------+-------+
 ```
 
+#### - **Truncate Command**
+```sql
+  -- This command is used to remove all the rows from the table in go.
+
+  -- Syntax:
+  TRUNCATE TABLE <TABLE_NAME>;
+
+  -- Example:
+  TRUNCATE TABLE Students;
+```
 
 
 ### **Concept of Keys** [Read More]()
