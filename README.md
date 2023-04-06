@@ -7,3 +7,4 @@
 | 1.     | [SQL](SQL/README.md)                                         |
 | 2.     | [Pandas](Practice/Pandas%20Notes/)                           |
 | 3.     | [Assignments](Internship/Assingment%201/)                    |
+| 4.     | [Python](Python)                                             |
