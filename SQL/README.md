@@ -119,7 +119,7 @@
   
   -- Example
   INSERT INTO Students values(101,'Lovely',21);
-  
+ 
   -- Shell Output
   mysql> insert into Students values(101,'Lovely',21);
   Query OK, 1 row affected (0.01 sec)
@@ -127,6 +127,31 @@
   --You can insert as many rows as you want 
   insert into Students values (102,'Jayesh',20);
   insert into Students values (103,'Noman',20);
+  
+  
+  
+  You can also add data of Multiple rows in Table in one Go..
+  -- For Example 
+  INSERT INTO Students values(102,'Dheeraj',19),(103,'Surya',15),(104,'Sammer',19)(105,'Chetan',21);
+  
+  --Shell Input
+  mysql> INSERT INTO Students values(102,'Dheeraj',19) , (103,'Surya',15) , (104,'Sammer',19) , (105,'Chetan',21);
+  Query OK, 4 rows affected (0.01 sec)
+  Records: 4  Duplicates: 0  Warnings: 0
+  
+  --Shell Output
+  mysql> Select * from Students ;
++------------+--------------+-------------+
+| student_id | student_name | student_age |
++------------+--------------+-------------+
+|        102 | Dheeraj      |          19 |
+|        103 | Surya        |          15 |
+|        104 | Sammer       |          19 |
+|        105 | Chetan       |          21 |
++------------+--------------+-------------+
+4 rows in set (0.00 sec)
+
+
 ```
 #### - **Viewing table data**
 ```sql
